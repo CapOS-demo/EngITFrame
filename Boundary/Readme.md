@@ -16,3 +16,6 @@ The scope of this task was to set up a boundary installation on the hardened VM,
 Additionally, firewall rules were to be configured. A boundary user was to be created with access to a single target.
 
 On the client side, the boundary source code was to be adapted so the user would not have to provide amn Auth Method ID.
+
+- [Client connection](./docs/packerconfig.pkr.hcl)
+    - curl error while trying to connect to the server
