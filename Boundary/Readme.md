@@ -17,6 +17,8 @@ Additionally, firewall rules were to be configured. A boundary user was to be cr
 
 On the client side, the boundary source code was to be adapted so the user would not have to provide an Auth Method ID.
 
-- [Client connection](./docs/boundaryconnect.png)
-    - curl error while trying to connect to the server
+- Client connection
+    - authentication works as intended
+    - the following will show you an error during connection that we have not been able to resolve in time for submission
+    - ![image info](./docs/boundaryconnect.png)
 - [Iptables config](./docs/iptables.png)
