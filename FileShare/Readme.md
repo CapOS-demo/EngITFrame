@@ -49,21 +49,15 @@ The following components will be deployed in two regions:
    - Subnets: Defined for web services and secure communication
    - Network Security Groups (NSGs): Control access to the web services
 
+## 4. VNet Peering Setup
+
 ### VNet Peering Design
 
 - **Objective**: Securely connect the `vnet-uswest` and `vnet-eucentral` networks using **VNet Peering** to create a private, secure communication path between both offices without exposing resources to the public internet.
 - **Solution**: Traffic between these VNets will stay within the Azure backbone, reducing latency and enhancing security.
 
-#### Network Peering Diagram
+Note: Architectural diagram is showing the VNET peering.
 
-As the above diagram depicts:
-- The two virtual networks (`vnet-uswest` and `vnet-eucentral`) connected via **VNet Peering**.
-- Office resources in the US region accessing the EU region's File Storage.
-- Subnet segmentation and routing between regions.
-- Secure communication through firewalls and Network Security Groups (NSGs).
-- File Share access only through Private Endpoint
-
-## 4. VNet Peering Setup
 ### **Step 1: Create Virtual Networks in US and EU Regions**
 
 - US-West VNet
