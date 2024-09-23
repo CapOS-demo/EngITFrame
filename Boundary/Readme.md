@@ -20,11 +20,11 @@ On the client side, the boundary source code was to be adapted so the user would
 - Client connection
     - The following picture shows how the authentication gets established. 
     - However, we encountered an issue with curl which we could not resolve in time.
-    - ![image info](./docs/boundaryconnect.png)
+     ![image info](./docs/boundaryconnect.png)
 - Iptables
     - The following picture shows the netfilter configuration of the VM hosting boundary which allows access only to the public services and SSH.
-    - ![image info](./docs/iptables.png) 
+     ![image info](./docs/iptables.png) 
 - Source code
     - The boundary source code was modified on a client machine to statically fetch the Auth Method Id from the server
     - The following picture shows the changes made to the `password.go` file
-    - ![image info](./source/diff.png)
+     ![image info](./source/diff.png)
