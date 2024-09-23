@@ -6,8 +6,8 @@ The goal of this task was to create a hardened Ubuntu 22.04 Image using Packer.
 Additionally, the provisioning agent was to be removed from the VM after the first boot.
 
 - [Packer config](./docs/packerconfig.pkr.hcl)
-- [OSCAP report before hardening](./reports/reportbefore.html)
-- [OSCAP report after hardening](./reports/reportafter.html)
+- [OSCAP report before hardening](./reports/reportbefore.pdf)
+- [OSCAP report after hardening](./reports/reportafter.pdf)
 - [Deployment screenshots](./docs/ImageDeployment.pdf)
 
 ## Task 2: Boundary Installation
