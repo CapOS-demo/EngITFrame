@@ -103,6 +103,7 @@ All data stored in Azure will use Azure-managed encryption at rest, leveraging *
 ## 7. Performance Dashboard
 
 File upload and download speed can be measured recorded in Azure Log Analytics and can be monitored using custom reports.
+This dashboard can be configured for more reports based on specific needs including usages of file share quota.
 
 ![Performance Dashboard](./docs/images/performance_dashboard.jpeg)
 
