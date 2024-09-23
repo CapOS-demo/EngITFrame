@@ -7,7 +7,7 @@
 ## 2. Identity and Access Management
 
 - We use Azure Active Directory (AAD) to manage access to resources.
-- Additionally, Multi-factor authentication (MFA) for additional security.
+- Multi-factor authentication (MFA) is used for additional security.
 
 ## 3. Network Security Groups (NSGs)
 
@@ -36,7 +36,7 @@ The secure connection between File share goes through Private Endpoint which is 
 
 ### **Network Access disabled**
 
-Storage Account access is disabled by default, so it should not be accessible even within network; if this request is not coming from source and also from allowed source.
+Direct Access of Storage is disabled. It can only be accessed using Private Endpoint by resources in the same VNET or peered VNET. 
 
 ![Storage Account not Accessible](./docs/images/storageaccount_network_access_disabled.png)
 
