@@ -15,7 +15,8 @@ Additionally, the provisioning agent was to be removed from the VM after the fir
 The scope of this task was to set up a boundary installation on the hardened VM, also deploying a web server and remote proxy.
 Additionally, firewall rules were to be configured. A boundary user was to be created with access to a single target.
 
-On the client side, the boundary source code was to be adapted so the user would not have to provide amn Auth Method ID.
+On the client side, the boundary source code was to be adapted so the user would not have to provide an Auth Method ID.
 
 - [Client connection](./docs/boundaryconnect.png)
     - curl error while trying to connect to the server
+- [Iptables config](./docs/iptables.png)
